@@ -8,12 +8,12 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
     @GetMapping("/")
     public String home(){
-        return "Hello Guys it's been great having you around";
+        return "Heloo World, This is the Home URL";
     }
 
     @GetMapping("/bye")
     public String bye(){
-        return "I just want to wish you a success and hopefully we meet in a professional setting";
+        return "I just want to wish you success and hopefully we meet in a professional setting";
     }
 
     @GetMapping("/greet/{name}")
@@ -21,6 +21,5 @@ public class HelloController {
         return "Hello "+name+"!";
     }
 
-    //Assingment End Points
 
 }
