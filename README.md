@@ -43,7 +43,7 @@ IntelliJ will automatically:
 
 Wait for the indexing to complete (progress bar at bottom of IDE).
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 my-first-springboot/
